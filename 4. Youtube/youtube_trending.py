@@ -10,7 +10,7 @@ urls = [] #List to store url
 views=[] #List to store views
 descriptions =[] #List to store decription
 
-res = requests.get('https://www.youtube.com/feed/trending')
+res = requests.get('https://examp;e')
 soup = BeautifulSoup(res.text, 'html.parser')
 allvideos=soup.findAll('div',{'class':"yt-lockup-content"})
 #print(allvideos)
